@@ -3,7 +3,10 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
   </head>
@@ -12,12 +15,44 @@
     <div class="site-container">
 
       <header class="site-header">
-        <!-- site navigation -->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+        <div id="address-bar" class="subtle-box-shadow">
+                <span class="address-bar-sec">
+                    <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98" aria-label="Address: 3600 Hazelwood Court, Boulder, CO, 80304" id="nav-address">3600 Hazelwood Court, Boulder, CO, 80304 </a>
+                </span>
+                <span class="address-bar-sec" id="address-bar-sec-right">
+                    <span id="address-bar-sec-phone">
+                        <img src="src/phone.svg" style="padding-right: 5px; height: 20px;">
+                        <a class="address-bar-sec-phone" href="tel:3034495214">(303)-449-5214 &nbsp;</a>
+                    </span>
+                    <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98"><button class="orange-btn" style="margin-left: 15px;">SCHEDULE A TOUR</button></a>
+                </span>
+            </div>
+        {#  <squarespace:navigation navigationId="siteNav" template="site-navigation" />  }
 
         <!-- site title or logo -->
         {.section website}
-          <img src="src/pm-logo.png" alt="test?"/>
+          <div id="header-container">        
+            <div id="navigation">
+                <span id="logo-sec">
+                <img class="thumb-image loaded" data-src="src/patience-montessori-logo.png" data-image="http://static1.squarespace.com/static/577e80de20099e0c9b023125/t/577e823fd482e949405e881d/1467908686952/" data-image-dimensions="1500x1000" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="577e823fd482e949405e881d" data-type="image" alt="This is an image caption within a blog post." src="https://static1.squarespace.com/static/577e80de20099e0c9b023125/t/577e823fd482e949405e881d/1467908686952/?format=750w" data-image-resolution="750w">
+
+                    {#  <img class="logo" src="{src/patience-montessori-logo.png}"/>  }
+                </span>
+                <nav id="main-nav" class="subtle-box-shadow">
+                    <a>About Us</a>|
+                    <a>Programs</a>|
+                    <a>Admissions</a>|
+                    <a>Contact Us</a>
+                </nav>
+            </div>
+
+            <div id="introduction" class="section-box" style="text-align: center;">
+                <h1 class="white-text subtle-text-shadow">Heartful, Intelligent, & Nurturing Education/Childcare</h1>
+                <h6 class="white-text subtle-text-shadow">
+                    Welcome to Patience Montessori in Boulder, CO. Our mission is to prepare your child for success in the world. To help build that foundation for success, we provide a multicultural, nurturing, fun and learning-oriented environment where your child can grow, thrive, and interact with other children and adults. We look forward to showing you what makes Patience Montessori so special! 
+                </h6>
+            </div>
+    </div>
         {.end}
       </header>
 
@@ -40,4 +75,4 @@
     {squarespace-footers}
 
   </body>
-</html>
+  </html>

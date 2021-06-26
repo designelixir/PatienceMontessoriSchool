@@ -1,115 +1,43 @@
+* {box-sizing: border-box;}
+body {width: 100vw; margin: 0;  font-family: "Cabin", serif; } 
+h1 {font-family: "Cabin", serif; font-weight: 600; }
+p {font-family: "Source Sans Pro", sans-serif; }
+h6 {font-family: "Source Sans Pro", sans-serif; font-size: 18px; }
+.logo {height: 200px; margin: 50px;}
+.white-text {color: white!important;}
+.subtle-text-shadow {text-shadow: 4px 4px 10px rgba(0,0,0,0.46);}
+.link-button {background: orange; padding: 15px; margin: 4px; font-weight: 600;}
+.link-button:hover {background: yellow;}
+#address-bar {width: 100vw; background: #135e97; color: white; display: flex; justify-content: space-between; align-items: center; padding: 0 50px; }
+.address-bar-sec { text-align: center; display: inline-flex; justify-items: center; align-items: center; }
+#address-bar-sec-phone {align-items: center; display: inline-flex;}
+#address-bar a {text-decoration: none; color: white; font-size: 16px;}
 
-/* CSS pre-processing by {less}. http://lesscss.org/
-***************************************************/
 
-
-
-/* General syles
-***************************************************/
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  font-size: 100%;
-  font-weight: normal;
-}
-
-.site-container {
-  line-height: 1.6em;
-  color: #777;
-  max-width: 1020px;
-  padding: 6vw;
-
-  h1, h2, h3 {
-    font-weight: normal;
-    line-height: 1.2em;
+#navigation {width: 100vw; display: inline-flex; align-items: center; justify-items: center; justify-content: space-between; padding: 0;}
+#logo-sec {width: 30%; }
+nav {width: 50vw; background: #135e97; color: white; padding: 0 25px; height: 50px; text-align: right; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly;}
+.subtle-box-shadow { -webkit-box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62); box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62);}
+.orange-btn{background-color: #e96b25;  }
+.orange-btn:hover {background-color:#FF9729; text-decoration: underline;}
+button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Cabin", serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
+#header-container {border: 2px solid red; background-image: url('src/flatirons-jerry-thomas.jpg'); background-size: cover; background-position: center; height: 60vh;}
+.section-box {width: 100%; padding: 100px; border: 1px solid lime;}
+#main-nav a:hover {cursor: pointer; font-weight: 600; transform: scale(1.1) }
+.image-box {height: 400px; width: auto;}
+.image-box img {height: 100%; width: auto;}
+.span-third {width: 30%; height: 600px; border: 2px solid purple;}
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: lightblue;
   }
-
-  a {
-    color: cornflowerblue;
-
-    &.disabled {
-      color: #ccc;
-    }
-  }
+  #nav-address {display: none;}
+  #address-bar {padding: 0 25px}
+  #address-bar-sec-right {width: 100%; justify-content: space-between;}
+  nav {width: calc(100% - 50px)}
+  #navigation {display: block; margin: 25px; padding: 0;}
+  .logo {text-align: center;}
 }
-
-.site-header {
-  margin-bottom: 4vw;
-}
-
-.site-navigation { }
-
-.site-navigation-list {
-  padding: 0;
-}
-
-.site-navigation-item {
-  display: inline-block;
-  font-size: 87.5%;
-
-  & + .site-navigation-item {
-    margin-left: 1em;
-  }
-
-  a {
-    color: #111;
-    text-decoration: none;
-
-    &:hover {
-      color: #999;
-    }
-  }
-
-  &.active-link > a {
-    color: #999;
-  }
-
-}
-
-.site-title-heading {
-
-  .site-title-link {
-    color: #111;
-    font-weight: 400;
-    text-decoration: none;
-  }
-}
-
-.content-container { }
-
-.site-footer {
-  font-size: 75%;
-  margin-top: 4vw;
-  margin-bottom: 4vw;
-}
-
-
-
-/* Homepage
-***************************************************/
-
-body.homepage { }
-
-
-
-/* Blog list
-***************************************************/
-
-body.collection-type-blog.view-list {
-
-  .blog-list-item + .blog-list-item {
-    margin-top: 3vw;
-  }
-}
-
-
-
-/* Break grid and stack blocks on small screens
-***************************************************/
-
 @media screen and (max-width: 640px) {
   @import 'sqs-grid-breaker';
 }
