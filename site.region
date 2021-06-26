@@ -19,13 +19,13 @@
                 <span class="address-bar-sec">
                     <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98" aria-label="Address: 3600 Hazelwood Court, Boulder, CO, 80304" id="nav-address">3600 Hazelwood Court, Boulder, CO, 80304 </a>
                 </span>
-                <span class="address-bar-sec" id="address-bar-sec-right">
+                <div class="address-bar-sec" id="address-bar-sec-right">
                     <span id="address-bar-sec-phone">
                         <img src="{src/phone.svg}" style="padding-right: 5px; height: 20px;">
                         <a class="address-bar-sec-phone" href="tel:3034495214">(303)-449-5214 &nbsp;</a>
                     </span>
                     <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98"><button class="orange-btn" style="margin-left: 15px;">SCHEDULE A TOUR</button></a>
-                </span>
+                </div>
             </div>
         {#  <squarespace:navigation navigationId="siteNav" template="site-navigation" />  }
 
@@ -35,13 +35,12 @@
             <div id="navigation">
                 <span id="logo-sec">
                     <a href="/"><img class="logo" src="{website.logoImageUrl}" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline"></a>
-                    
                 </span>
                 <nav id="main-nav" class="subtle-box-shadow">
                     <a>About Us</a>|
                     <a>Programs</a>|
                     <a>Admissions</a>|
-                    <a>Contact Us</a>
+                    <a style="padding-right: 25px;">Contact Us</a>
                 </nav>
             </div>
 
