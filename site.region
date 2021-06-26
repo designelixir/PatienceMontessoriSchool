@@ -34,9 +34,8 @@
           <div id="header-container">        
             <div id="navigation">
                 <span id="logo-sec">
-                <img class="thumb-image loaded" data-src="src/patience-montessori-logo.png" data-image="http://static1.squarespace.com/static/577e80de20099e0c9b023125/t/577e823fd482e949405e881d/1467908686952/" data-image-dimensions="1500x1000" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="577e823fd482e949405e881d" data-type="image" alt="This is an image caption within a blog post." src="https://static1.squarespace.com/static/577e80de20099e0c9b023125/t/577e823fd482e949405e881d/1467908686952/?format=750w" data-image-resolution="750w">
-
-                    {#  <img class="logo" src="{src/patience-montessori-logo.png}"/>  }
+                    <a href="/"><img class="logo" src="{website.logoImageUrl}" alt="Hang On Logo"></a>
+                    
                 </span>
                 <nav id="main-nav" class="subtle-box-shadow">
                     <a>About Us</a>|
