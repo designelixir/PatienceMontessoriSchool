@@ -1,0 +1,48 @@
+<style>
+
+* {box-sizing: border-box;}
+body {width: 100vw; margin: 0; border: 3px solid lime; font-family: "Cabin", serif; } 
+.logo {height: 200px;}
+
+.link-button {background: orange; padding: 15px; margin: 4px; font-weight: 600;}
+.link-button:hover {background: yellow;}
+#address-nav {width: 100vw; background: teal; color: white; display: flex; justify-content: space-between; align-items: center; padding: 0 50px; }
+.address-nav-sec { text-align: center; display: inline-flex; justify-items: center; }
+#address-nav a {text-decoration: none; color: white; font-size: 16px;}
+.icon {height: 25px;  margin: 0; padding: 0; display: inline-block; justify-items: baseline; }
+
+#logo-nav {width: 100vw; display: inline-flex; align-items: center; justify-items: center; justify-content: space-between; padding: 0;}
+#logo-sec {width: 30%; }
+nav {width: 50vw; background: red; padding-right: 50px; height: 75px; text-align: right; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly; }
+
+</style>
+
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="address-nav">
+            <div class="address-nav-sec"><p><a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98">3600 Hazelwood Court, Boulder, CO, 80304</a></p></div>
+            <div class="address-nav-sec"><span style="display: flex; align-items: center; float: left;">
+                <img class="icon" src="src/phone.svg" style="padding-right: 5px;">
+                <p> <a>(303)-449-5214</a></p>
+            </span></div>
+            <div class="address-nav-sec"><p class="link-button"><a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98">SCHEDULE A TOUR</a></p></div>
+        </div>
+        <div id="logo-nav">
+            <div id="logo-sec"><img class="logo" src="src/pm-logo.png"/></div>
+            <nav>
+                <a>ABOUT US</a>
+                <a>PROGRAMS</a>
+                <a>ADMISSIONS</a>
+                <a>CONTACT US</a>
+
+
+            </nav>
+
+        </div>
+    </body>
+</html>
