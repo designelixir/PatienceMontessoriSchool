@@ -1,19 +1,45 @@
 <style>
 
 * {box-sizing: border-box;}
-body {width: 100vw; margin: 0; border: 3px solid lime; font-family: "Cabin", serif; } 
-.logo {height: 200px;}
-
+body {width: 100vw; margin: 0;  font-family: "Cabin", serif; } 
+h1 {font-family: "Cabin", serif; font-weight: 600; }
+p {font-family: "Source Sans Pro", sans-serif; }
+h6 {font-family: "Source Sans Pro", sans-serif; font-size: 18px; }
+.logo {height: 200px; margin: 50px;}
+.white-text {color: white!important;}
+.subtle-text-shadow {text-shadow: 4px 4px 10px rgba(0,0,0,0.46);}
 .link-button {background: orange; padding: 15px; margin: 4px; font-weight: 600;}
 .link-button:hover {background: yellow;}
-#address-nav {width: 100vw; background: teal; color: white; display: flex; justify-content: space-between; align-items: center; padding: 0 50px; }
-.address-nav-sec { text-align: center; display: inline-flex; justify-items: center; }
-#address-nav a {text-decoration: none; color: white; font-size: 16px;}
-.icon {height: 25px;  margin: 0; padding: 0; display: inline-block; justify-items: baseline; }
+#address-bar {width: 100vw; background: #135e97; color: white; display: flex; justify-content: space-between; align-items: center; padding: 0 50px; }
+.address-bar-sec { text-align: center; display: inline-flex; justify-items: center; align-items: center; }
+#address-bar-sec-phone {align-items: center; display: inline-flex;}
+#address-bar a {text-decoration: none; color: white; font-size: 16px;}
 
-#logo-nav {width: 100vw; display: inline-flex; align-items: center; justify-items: center; justify-content: space-between; padding: 0;}
+
+#navigation {width: 100vw; display: inline-flex; align-items: center; justify-items: center; justify-content: space-between; padding: 0;}
 #logo-sec {width: 30%; }
-nav {width: 50vw; background: red; padding-right: 50px; height: 75px; text-align: right; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly; }
+nav {width: 50vw; background: #135e97; color: white; padding: 0 25px; height: 50px; text-align: right; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly;}
+.subtle-box-shadow { -webkit-box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62); box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62);}
+.orange-btn{background-color: #e96b25;  }
+.orange-btn:hover {background-color:#FF9729; text-decoration: underline;}
+button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Cabin", serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
+#header-container {border: 2px solid red; background-image: url('src/flatirons-jerry-thomas.jpg'); background-size: cover; background-position: center; height: 60vh;}
+.section-box {width: 100%; padding: 100px; border: 1px solid lime;}
+#main-nav a:hover {cursor: pointer; font-weight: 600; transform: scale(1.1) }
+.image-box {height: 400px; width: auto;}
+.image-box img {height: 100%; width: auto;}
+.span-third {width: 30%; height: 600px; border: 2px solid purple;}
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+  #nav-address {display: none;}
+  #address-bar {padding: 0 25px}
+  #address-bar-sec-right {width: 100%; justify-content: space-between;}
+  nav {width: calc(100% - 50px)}
+  #navigation {display: block; margin: 25px; padding: 0;}
+  .logo {text-align: center;}
+}
 
 </style>
 
@@ -21,28 +47,50 @@ nav {width: 50vw; background: red; padding-right: 50px; height: 75px; text-align
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">   
         <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="address-nav">
-            <div class="address-nav-sec"><p><a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98">3600 Hazelwood Court, Boulder, CO, 80304</a></p></div>
-            <div class="address-nav-sec"><span style="display: flex; align-items: center; float: left;">
-                <img class="icon" src="src/phone.svg" style="padding-right: 5px;">
-                <p> <a>(303)-449-5214</a></p>
-            </span></div>
-            <div class="address-nav-sec"><p class="link-button"><a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98">SCHEDULE A TOUR</a></p></div>
+        <div id="header-container">        
+            <div id="address-bar" class="subtle-box-shadow">
+                <span class="address-bar-sec">
+                    <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98" aria-label="Address: 3600 Hazelwood Court, Boulder, CO, 80304" id="nav-address">3600 Hazelwood Court, Boulder, CO, 80304 </a>
+                </span>
+                <span class="address-bar-sec" id="address-bar-sec-right">
+                    <span id="address-bar-sec-phone">
+                        <img src="src/phone.svg" style="padding-right: 5px; height: 20px;">
+                        <a class="address-bar-sec-phone" href="tel:3034495214">(303)-449-5214 &nbsp;</a>
+                    </span>
+                    <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98"><button class="orange-btn" style="margin-left: 15px;">SCHEDULE A TOUR</button></a>
+                </span>
+            </div>
+            <div id="navigation">
+                <span id="logo-sec">
+                    <img class="logo" src="src/patience-montessori-logo@300x.png"/>
+                </span>
+                <nav id="main-nav" class="subtle-box-shadow">
+                    <a>About Us</a>|
+                    <a>Programs</a>|
+                    <a>Admissions</a>|
+                    <a>Contact Us</a>
+                </nav>
+            </div>
+
+            <div id="introduction" class="section-box" style="text-align: center;">
+                <h1 class="white-text subtle-text-shadow">Heartful, Intelligent, & Nurturing Education/Childcare</h1>
+                <h6 class="white-text subtle-text-shadow">
+                    Welcome to Patience Montessori in Boulder, CO. Our mission is to prepare your child for success in the world. To help build that foundation for success, we provide a multicultural, nurturing, fun and learning-oriented environment where your child can grow, thrive, and interact with other children and adults. We look forward to showing you what makes Patience Montessori so special! 
+                </h6>
+            </div>
+    </div>
+
+    <div id="body-container">
+        <div class="section-box">
+            <span class="span-third">
+                <img class="image-box" src="src/flatirons.jpg">
+            </span>
+            
         </div>
-        <div id="logo-nav">
-            <div id="logo-sec"><img class="logo" src="src/pm-logo.png"/></div>
-            <nav>
-                <a>ABOUT US</a>
-                <a>PROGRAMS</a>
-                <a>ADMISSIONS</a>
-                <a>CONTACT US</a>
-
-
-            </nav>
-
-        </div>
+    </div>
     </body>
 </html>
