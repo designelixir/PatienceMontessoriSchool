@@ -4,7 +4,7 @@
     </span>
     <div class="address-bar-sec" id="address-bar-sec-right">
         <span id="address-bar-sec-phone">
-            <a class="address-bar-sec-phone" href="tel:3034495214"><img src="../assets/phone-icon.png" style="padding-right: 5px; height: 20px;" alt="phone icon">
+            <a class="address-bar-sec-phone" href="tel:3034495214"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/phone-icon.png" style="height: 15px;" alt="phone icon">
             (303)-449-5214 &nbsp;</a>
         </span>
         <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98"><button class="orange-btn" style="margin-left: 15px;">SCHEDULE A TOUR</button></a>
@@ -21,7 +21,6 @@
                     <a>Programs</a>|
                     <a>Admissions</a>|
                     <a style="padding-right: 25px;">Contact Us</a>
-                    {#  this is a test  }
                 </nav>
             </div>
 

@@ -11,7 +11,9 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} fade-in">
-
+      {#  facebook plugin  }
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v11.0" nonce="yKWmbqMd"></script>
     
 
       <header class="site-header">
@@ -33,7 +35,57 @@
 
       <!--Footer with open block field -->
       <footer class="site-footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
+       <div class="footer-container">
+       <div class="footer-cols">
+       
+
+           <a href="/">
+              <img src="{website.logoImageUrl}" style="height: 100%; max-height: 200px; padding: 5% 0 0% 15%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline">
+            </a>
+       
+          <div id="footer-details">
+          <ul id="footer-contact-linktree">
+              <li> <a href="tel:3034495214"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/phone-icon.png" style="height: 15px;" alt="phone icon">
+                  (303)-449-5214 &nbsp;</a> 
+              </li>
+              <li><a> fax: (303) 443-3281 </a></li>
+              <li><a href="mailto: patiencemontessori@gmail.com"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/phone-icon.png" style="width: 15px;" alt="phone icon">&nbsp; patience@patiencemontessori.com</a></li>
+              <li><a href="">3600 Hazelwood Court, <br> Boulder, Colorado, 80304</a></li>
+          </ul>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/patiencemontessori" target="_blank"><img style="width: 35px;" src="https://image.flaticon.com/icons/png/512/733/733547.png"></a>&nbsp;
+            <a href="https://www.youtube.com/user/patiencemontessori1" target="_blank"><img style="width: 35px;" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/youtube-icon_1.png"></a>&nbsp;
+            <a href="mailto: patience@patiencemontessori.com"><img style="width: 35px;" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/email-icon.png"></a>
+          </div>
+          </div>
+          
+        
+       </div>
+       <div class="footer-cols">
+       <div class="facebook-widget-wrapper">
+       
+                 <div class="fb-page" data-href="https://www.facebook.com/patiencemontessori" data-tabs="events" data-width="500" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/patiencemontessori" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/patiencemontessori">Patience Montessori School</a></blockquote></div>
+
+       </div>
+       <div class="footer-buttons">
+                <a target="blank" href="/schedule"><button class="light-blue-btn" style="margin-left: 15px;">SCHEDULE A TOUR</button></a>
+                <a target="blank" href="https://g.page/patiencemontessoridaycare?share"><button class="light-blue-btn" style="margin-left: 15px;">DIRECTIONS</button></a>
+
+
+       </div>
+       </div>
+
+
+       <section id="footer-nav" class="subtle-box-shadow" style="width: 100%;">
+            <a>ABOUT US</a>
+            <a>PROGRAMS</a>
+            <a>FORMS</a>
+            <a>ADMISSIONS</a>
+            <a style="padding-right: 25px;">CONTACT US</a>
+        </section>
+        <p id="de-credit"><a href="https://designelixir.studio">Made with &hearts; by Design Elixir</a></p>
+       </div>
       </footer>
 
     </div>
