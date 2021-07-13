@@ -34,7 +34,7 @@
           <div id="header-container">        
             <div id="navigation">
                 <span id="logo-sec">
-                    <a href="/"><img class="logo" src="{website.logoImageUrl}" style="width: 100%; max-width: 450px; padding: 5% 10% 0 10%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline"></a>
+                    <a href="/"><img class="logo" src="{website.logoImageUrl}" style="width: 100%; max-width: 450px; padding: 5% 10% 5% 10%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline"></a>
                 </span>
                 <nav id="main-nav" class="subtle-box-shadow">
                     <a>About Us</a>|
