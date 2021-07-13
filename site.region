@@ -18,7 +18,6 @@
 
       <header class="site-header">
           <squarespace:navigation navigationId="siteNav" template="site-navigation" />
-
       </header>
        
 
