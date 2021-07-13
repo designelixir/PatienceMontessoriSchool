@@ -1,7 +1,7 @@
-* {box-sizing: border-box;}
+* {box-sizing: border-box; }
 header {top: 0; left: 0; height: 30vh; }
-body {width: 100vw; margin: 0; font-family: "Cabin", serif; } 
-.row {padding: 0px 30px;}
+body {width: 100vw; margin: 0; font-family: "Cabin", serif; overflow-x: hidden;} 
+
 h1 {font-family: "Cabin", serif; font-weight: 600; font-size: 28px;}
 p {font-family: "Source Sans Pro", sans-serif; }
 h6 {font-family: "Source Sans Pro", sans-serif; font-size: 18px; }
@@ -47,6 +47,9 @@ footer {bottom: 0; margin-bottom: -15px;  background-color: #FFF336;}
 #de-credit a {text-decoration: none; color: white;}
 #de-credit a:hover {transform: scale(1.1)}
 
+.program-buttons {display: inline-flex; justify-content: space-between; align-items: center; height: 75px; width: 100%; margin: 0; left: 0; }
+.program-buttons .light-blue-btn {padding: 15px 30px; }
+
 // repeating style elements 
 .subtle-box-shadow { -webkit-box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62); box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62);}
 .orange-btn{background-color: #e96b25;}
@@ -55,8 +58,8 @@ footer {bottom: 0; margin-bottom: -15px;  background-color: #FFF336;}
 
 .orange-btn:hover {background-color:#FF9729; transform: scale(1.1)}
 button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Cabin", serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
-.header-section-box {width: calc(100% + 60px); margin-left: -30px; height: 90vh; display: flex; justify-content: center; padding: 0px!important; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; position: absolute; box-sizing: border-box; top: 0vh; left: 0; z-index: -1; background-image: url(https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/flatirons.jpg); }
-.header-section-content {width: 100vw; margin-left: -30px; height: 30%; bottom: 0; text-align: center; padding: 100px; background: rgb(255,255,255);
+.header-section-box {width: calc(100% + 60px); height: 90vh; display: flex; justify-content: center; padding: 0px!important; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; position: absolute; box-sizing: border-box; top: 0vh; left: 0; z-index: -1; background-image: url(https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/flatirons.jpg); }
+.header-section-content {width: 100vw; height: 30%; bottom: 0; text-align: center; padding: 100px; background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.35) 50%, rgba(255,255,255,0) 100%);}
 .image-box {height: 400px; width: auto;}
 .image-box img {height: 100%; width: auto;}
@@ -79,7 +82,7 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
   .header-section-box {height: 100vh;}
   .footer-cols {width: 100%;}
   .social-icons, #footer-contact-linktree {padding: 0 0 0 35%;}
-  
+  .program-buttons .light-blue-btn {padding: 15px 5px;}
 
 }
 
