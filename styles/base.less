@@ -18,7 +18,7 @@ h6 {font-family: "Source Sans Pro", sans-serif; font-size: 18px; }
 
 
 #navigation {width: 100vw; display: inline-flex; align-items: center; justify-items: center; justify-content: space-between; padding: 0;}
-#logo-sec {width: 50%; border: 1px solid red; display: flex; justify-content: left; align-items: center; }
+#logo-sec {width: 50%; display: flex; justify-content: left; align-items: center; }
 #main-nav a:hover {cursor: pointer; font-weight: 600; transform: scale(1.1) }
 
 
@@ -35,7 +35,11 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
 .image-box {height: 400px; width: auto;}
 .image-box img {height: 100%; width: auto;}
 
-
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
 
 @media only screen and (max-width: 900px) {
   
