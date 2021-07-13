@@ -26,7 +26,7 @@ h6 {font-family: "Source Sans Pro", sans-serif; font-size: 18px; }
 nav {width: 50vw; background: #135e97; color: white;  height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly;}
 
 //footer
-footer {bottom: 0; margin-bottom: -15px;  background-color: #FFF336;}
+footer {bottom: 0; margin-bottom: -15px;  background-color: #FFF336; }
 .footer-container {width: 100%;  background-image: url("https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/footer-bg.png"); background-size: cover; padding-bottom: 30px; }
 #footer-nav {background-color: #407538; width: 100%; color: white; height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly; }
 .footer-cols {width: 50%; float: left; padding-bottom: 5%;  align-items: center;}
@@ -47,12 +47,15 @@ footer {bottom: 0; margin-bottom: -15px;  background-color: #FFF336;}
 #de-credit a {text-decoration: none; color: white;}
 #de-credit a:hover {transform: scale(1.1)}
 
-.program-buttons {display: inline-flex; justify-content: space-between; align-items: center; height: 75px; width: 100%; margin: 0; left: 0; }
-.program-buttons .light-blue-btn {padding: 15px 30px; }
+
+.program-buttons-section {width: 100%; height: 500px;  }
+.program-buttons {width: 100%; height: 65px;  z-index: 2; position: relative; top: -32px; display: flex; align-items: center; justify-content: space-around;}
+.program-btn {width: 24vw; height: 100%; display: flex; justify-content: center; align-items: center; text-align: center; color: white; border: 2px solid white;}
 
 // repeating style elements 
 .subtle-box-shadow { -webkit-box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62); box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62);}
 .orange-btn{background-color: #e96b25;}
+.dark-blue-btn {background-color: #135E97; border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Cabin", serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
 .light-blue-btn {background-color: #3990CE;}
 .light-blue-btn:hover {background-color:#59A2D6; transform: scale(1.1)}
 
@@ -83,7 +86,7 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
   .footer-cols {width: 100%;}
   .social-icons, #footer-contact-linktree {padding: 0 0 0 35%;}
   .program-buttons .light-blue-btn {padding: 15px 5px;}
-
+  .program-btn {font-size: 14px!important;}
 }
 
 

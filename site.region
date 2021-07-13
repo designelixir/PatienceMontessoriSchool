@@ -23,14 +23,17 @@
        
 
 
-     
+     <a target="blank" href="/infant-classroom">INFANT CLASSROOM</button></a>
+          <a target="blank" href="/toddler-program">TODDLER PROGRAM</button></a>
+          <a target="blank" href="/primary program">PRIMARY PROGRAM</button></a>
+          <a target="blank" href="/kindergarden-program">KINDERGARDEN PROGRAM</button></a>
 
       <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
        
        
        {squarespace.main-content}
-
+     
       </main>
 
       <!--Footer with open block field -->
