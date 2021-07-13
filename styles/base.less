@@ -1,13 +1,15 @@
 * {box-sizing: border-box; }
 header {top: 0; left: 0; height: 30vh; }
-body {width: 100vw; margin: 0; font-family: "Cabin", serif; overflow-x: hidden; background-image: url("https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/textured-bg-optimized.png"); background-size: cover;} 
+body {width: 100vw; margin: 0; font-family: "Sarabun", sans-serif; overflow-x: hidden; background-image: url("https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/textured-bg-optimized.png"); background-size: cover;} 
 
-h1 {font-family: "Sarabun", sans-serif; font-weight: 600; font-size: 32px;}
-h2 {font-family: "Sarabun", sans-serif; font-weight: 600; font-size: 28px;}
+h1 {font-family: "Sarabun", sans-serif; font-weight: 600; font-size: 32px; color: #135e97;}
+h2 {font-family: "Sarabun", sans-serif; font-weight: 600; font-size: 28px; color: #e96b25;}
 p {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; padding: 0px 5%; color: #4B4B4B;}
-a {font-family: "Sarabun", sans-serif; font-weight: 400; font-size: 18px;}
+a {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px;}
+img {border: 3px solid #69BBAA;}
 h6 {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; color: black;}
-.logo img {width: 80%}
+.logo {width: 80%; border: none!important;}
+.icon {border: none!important; height: 15px;}
 .white-text {color: white!important;}
 .subtle-text-shadow {text-shadow: 4px 4px 10px rgba(0,0,0,0.66)!important;}
 .link-button {background: orange; padding: 15px; margin: 4px; font-weight: 600;}
@@ -37,7 +39,8 @@ nav {width: 50vw; background: #135e97; color: white;  height: 50px; text-align: 
 //footer
 footer {bottom: 0; margin-bottom: -15px;}
 .footer-container {width: 100%;  background-image: url("https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/footer-bg.png"); background-size: cover; padding-bottom: 30px; }
-#footer-nav {background-color: #407538; width: 100%; color: white; height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly; margin-bottom: 2%;}
+#footer-nav {background-color: #407538; width: 100%; height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly; margin-bottom: 2%;}
+#footer-nav a {color: white; font-family: "Sarabun"; font-weight: 300; font-size: 14px!important;}
 .footer-cols {width: 50%; float: left; padding-bottom: 2%;  align-items: center;}
 .footer-logo-wrapper{display: flex; align-items: center; justify-content: center; padding: 5% 15%;}
 
@@ -58,9 +61,9 @@ footer {bottom: 0; margin-bottom: -15px;}
 #de-credit a {text-decoration: none; color: white;}
 #de-credit:hover {transform: scale(1.1)}
 
-.programs-hero {width: 100%; height: 550px; background-image: url("https://images.squarespace-cdn.com/content/v1/60d55b927bebab46b4a4455a/1626148332610-FA3Y9P60VKFKWET0U2GH/bubble-kids-cropped.jpeg?format=2500w"); background-size: cover;}
-.program-buttons-section {width: 100%; height: 665px; margin: 5% 0; border: 3px solid lime; }
-.program-buttons {width: 100%; height: 65px; margin-top: -32px; z-index: 2; position: relative;  display: flex; align-items: center; justify-content: space-around;}
+.programs-hero {width: 100%; height: auto; max-height: 550px; background-image: url("https://images.squarespace-cdn.com/content/v1/60d55b927bebab46b4a4455a/1626148332610-FA3Y9P60VKFKWET0U2GH/bubble-kids-cropped.jpeg?format=2500w"); background-size: cover; background-position: center center;}
+.program-buttons-section {width: 100%;  margin: 5% 0; }
+.program-buttons {width: 100%; height: 65px; margin-top: -35px; z-index: 2; position: relative;  display: flex; align-items: center; justify-content: space-around;}
 .program-btn {width: 24vw; height: 100%; display: flex; justify-content: center; align-items: center; text-align: center; color: white; border: 2px solid white;}
 
 // repeating style elements 
@@ -73,7 +76,7 @@ footer {bottom: 0; margin-bottom: -15px;}
 .orange-header {color: #e96b25;}
 
 .orange-btn:hover {background-color:#FF9729; transform: scale(1.1)}
-button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Sarabun", sans-serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
+button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Sarabun", sans-serif; font-weight: 400; cursor: pointer; color: white; font-size: 16px;}
 .header-section-box {width: calc(100% + 60px); height: 90vh; display: flex; justify-content: center; padding: 0px!important; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; position: absolute; box-sizing: border-box; top: 0vh; left: 0; z-index: -1; background-image: url(https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/flatirons.jpg); }
 .header-section-content {width: 100vw; height: 30%; bottom: 0; text-align: center; padding: 100px; background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.35) 50%, rgba(255,255,255,0) 100%);}
@@ -100,7 +103,8 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
   .footer-cols {width: 100%;}
   .social-icons, #footer-contact-linktree {padding: 0 0 0 35%;}
   .program-buttons .light-blue-btn {padding: 15px 5px;}
-  .program-btn {font-size: 14px!important;}
+  .program-btn {font-size: 14px!important; font-weight: 400;}
+
 }
 
 

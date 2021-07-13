@@ -11,7 +11,7 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} fade-in">
-      {#  facebook plugin  }
+      
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v11.0" nonce="yKWmbqMd"></script>
     
@@ -74,23 +74,23 @@
        
           <div class="footer-logo">
            <a href="/">
-              <img src="{website.logoImageUrl}" style="width: 100%; max-width: 400px; padding: 5% 0 0% 15%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline">
+              <img class="logo" src="{website.logoImageUrl}" style="width: 100%; max-width: 400px; padding: 5% 0 0% 15%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline">
             </a>
           </div>
           <div id="footer-details">
           <ul id="footer-contact-linktree">
-              <li> <a href="tel:3034495214"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/phone-icon.png" style="height: 15px;" alt="phone icon">
-                  (303)-449-5214 &nbsp;</a> 
+              <li> <a href="tel:3034495214"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/phone-icon.png" class="icon" alt="phone icon">
+                  &nbsp; (303)-449-5214 </a> 
               </li>
-              <li><a><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/fax-icon.png" alt="fax-icon" style="width: 15px;"> &nbsp; (303) 443-3281 </a></li>
-              <li><a href="mailto: patiencemontessori@gmail.com"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/email-icon.png" style="width: 15px;" alt="email icon">&nbsp; patience@patiencemontessori.com</a></li>
+              <li><a><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/fax-icon.png" alt="fax-icon" class="icon"> &nbsp; (303) 443-3281 </a></li>
+              <li><a href="mailto: patiencemontessori@gmail.com"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/email-icon.png" class="icon" alt="email icon">&nbsp; patience@patiencemontessori.com</a></li>
               <li><a href="https://g.page/patiencemontessoridaycare?share" target="_blank">3600 Hazelwood Court, <br> Boulder, Colorado, 80304</a></li>
           </ul>
 
           <div class="social-icons">
-            <a href="https://www.facebook.com/patiencemontessori" target="_blank"><img style="width: 35px;" src="https://image.flaticon.com/icons/png/512/733/733547.png"></a>&nbsp;
-            <a href="https://www.youtube.com/user/patiencemontessori1" target="_blank"><img style="width: 35px;" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/youtube-icon_1.png"></a>&nbsp;
-            <a href="mailto: patience@patiencemontessori.com"><img style="width: 35px;" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/orange-email-icon.png"></a>
+            <a href="https://www.facebook.com/patiencemontessori" target="_blank"><img style="width: 35px; height: auto!important;" class="icon" src="https://image.flaticon.com/icons/png/512/733/733547.png"></a>&nbsp;
+            <a href="https://www.youtube.com/user/patiencemontessori1" target="_blank"><img style="width: 35px; height: auto!important;" class="icon" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/youtube-icon_1.png"></a>&nbsp;
+            <a href="mailto: patience@patiencemontessori.com"><img style="width: 35px; height: auto!important;" class="icon" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/orange-email-icon.png"></a>
           </div>
           </div>
           
@@ -106,7 +106,7 @@
        </div>
        </div>
 
-
+      
        <section id="footer-nav" class="subtle-box-shadow" style="width: 100%;">
             <a>About Us</a>
             <a>Programs</a>
