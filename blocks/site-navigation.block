@@ -17,10 +17,10 @@
                     <a href="/"><img class="logo" src="{website.logoImageUrl}" style="width: 100%; max-width: 450px; padding: 5% 10% 5% 10%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline"></a>
                 </span>
                 <nav id="main-nav" class="subtle-box-shadow">
-                    <a>About Us</a>|
-                    <a>Programs</a>|
-                    <a>Admissions</a>|
-                    <a style="padding-right: 25px;">Contact Us</a>
+                    <a href="/about">About Us</a>|
+                    <a href="/programs">Programs</a>|
+                    <a href="/admissions">Admissions</a>|
+                    <a style="padding-right: 25px;" href="/contact">Contact Us</a>
                 </nav>
             </div>
 

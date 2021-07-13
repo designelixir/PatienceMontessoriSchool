@@ -32,41 +32,7 @@
 
       <!--Footer with open block field -->
 
-  <div class="review-section">
-    <h2 class="orange-header">What Parents are Saying</h2>
-
-    <div class="review-slideshow-wrapper">
-        <div><svg xmlns="http://www.w3.org/2000/svg" width="44.401" height="38.534" viewBox="0 0 44.401 38.534"> <g id="_" data-name=" " transform="translate(-1026.849 -179.357)" style="isolation: isolate"> <g id="Group_5" data-name="Group 5" transform="translate(1026.849 179.358)" style="isolation: isolate"> <path id="Path_20" data-name="Path 20" d="M1071.1,187.224v1.5c0,.6.15,1.05.15,1.65v3c0,.6-.15,1.05-.15,1.65,0,.451.15.9.15,1.5v1.65c-.15.6-.15,1.051-.3,1.5a1.555,1.555,0,0,1-1.2.9,6.9,6.9,0,0,1-1.35.45h-1.65c-.45,0-.9-.15-1.5-.15-.3,0-.75.45-1.049,1.049a4.439,4.439,0,0,0-.3,1.5c-.151.3,0,.9,0,1.35a6.422,6.422,0,0,0,.45,1.5,7,7,0,0,0,.45,1.351,2.436,2.436,0,0,0,1.35.75,2.237,2.237,0,0,0,1.35.6,2.971,2.971,0,0,1,1.65.3,2.345,2.345,0,0,1,1.2,1.2,4.494,4.494,0,0,1,.6,1.5,6.155,6.155,0,0,1,.15,1.65c0,.6-.15,1.05-.15,1.5-.15.6,0,1.05-.15,1.35a2.156,2.156,0,0,1-.9,1.049,2.226,2.226,0,0,1-1.35.3h-1.5c-.6,0-1.05-.15-1.65-.15a5.608,5.608,0,0,0-1.651-.15l-1.5-.449c-.45-.15-1.049-.3-1.5-.45a5.726,5.726,0,0,1-1.5-.45,6.307,6.307,0,0,1-1.5-.6,6.1,6.1,0,0,1-1.35-.75l-1.049-1.051a7.485,7.485,0,0,1-1.05-1.2,7.075,7.075,0,0,1-.9-1.35,5.741,5.741,0,0,1-.449-1.5,2.532,2.532,0,0,1-.451-1.5,5.747,5.747,0,0,1-.449-1.5v-3.3c0-.6.15-1.049.15-1.5,0-.6-.15-1.2-.15-1.65v-1.65c0-.6.15-1.051.15-1.65v-3.151c0-.6-.15-1.2-.15-1.65v-3.15c0-.45.15-.9.15-1.5,0-.45-.15-.9-.15-1.5s.15-1.05.15-1.65v-1.5a4.48,4.48,0,0,1,.6-1.5c.15-.45.449-1.05.9-1.2.3-.3.9-.3,1.5-.45.449,0,.9-.15,1.5-.15a6.151,6.151,0,0,1,1.65-.15l1.5.15c.6,0,1.05-.15,1.65-.15a5,5,0,0,1,1.5,0h1.5c.6,0,1.2.3,1.651.3.45.15,1.05-.15,1.5,0,.6,0,1.05.45,1.5.6a3.61,3.61,0,0,1,1.2.9,2.847,2.847,0,0,1,.45,1.35,4.62,4.62,0,0,1,.15,1.5c0,.45.15,1.051.15,1.65Zm-24.9,0c0,.6-.15,1.049-.15,1.5,0,.6.15,1.049.15,1.65l-.151,1.5c0,.45,0,1.049,0,1.5,0,.6.15,1.05.15,1.65,0,.451-.15.9-.151,1.5v1.65c-.15.6-.15,1.051-.3,1.5a1.741,1.741,0,0,1-.9,1.2h-1.5c-.451,0-1.051.15-1.65.15h-1.5a1.431,1.431,0,0,0-1.051.9,4.627,4.627,0,0,0-.15,1.5,4.4,4.4,0,0,0-.3,1.35,6.443,6.443,0,0,0,.449,1.5c.15.451.6.75.9,1.2a3.609,3.609,0,0,0,.9,1.2c.449.3.9.151,1.5.151a5.4,5.4,0,0,1,1.65.3,3.541,3.541,0,0,1,1.35,1.2,5.312,5.312,0,0,1,.449,1.65,6.077,6.077,0,0,1,0,1.65c0,.6.3,1.05.3,1.5a5.927,5.927,0,0,1-.6,1.35c-.3.6-.3,1.049-.75,1.35-.3.15-.9,0-1.351,0H1042a6.149,6.149,0,0,1-1.649-.15,5.34,5.34,0,0,1-1.5-.3c-.6-.15-1.2-.15-1.651-.3s-1.05-.15-1.5-.3c-.6-.149-.9-.6-1.5-.75a5.3,5.3,0,0,1-1.349-.6l-1.35-.75-1.35-.9c-.3-.3-.45-.9-.9-1.349a8.276,8.276,0,0,1-.9-1.2,15.45,15.45,0,0,1-.6-1.5c-.15-.451-.15-1.051-.3-1.5l-.3-1.65a6.6,6.6,0,0,0-.3-1.5v-1.65c0-.6.3-1.049.3-1.5,0-.6-.15-1.2-.15-1.65v-9.6c0-.6.15-1.049.15-1.65v-1.5c0-.45-.15-.9-.15-1.5v-1.65c0-.6.15-1.051.15-1.5.15-.6.15-1.2.3-1.65a3.072,3.072,0,0,1,1.2-1.2,9.328,9.328,0,0,1,1.5-.45,4.626,4.626,0,0,1,1.5-.15h3.15c.6,0,1.05.15,1.65.15l1.5-.15c.6,0,1.049.15,1.5.15a6.05,6.05,0,0,0,1.65,0c.6.15,1.049,0,1.5.15l1.5.45c.449.3,1.049.45,1.35.9s.15.9.3,1.5a4.437,4.437,0,0,1,.3,1.5c0,.45-.15,1.051-.15,1.65C1045.9,186.174,1046.2,186.774,1046.2,187.225Z" transform="translate(-1026.849 -179.358)" fill="#135e97"/> </g> </g></svg></div>
-          <div class="slideshow w3-content w3-section" >
-              <div class="mySlides subtle-box-shadow slide-in-fwd-center"> 
-                <p>We love Patience Montessori, at 28th and Kalmia in Boulder... we feel fortunate to have found such a great gem of a school for our 17-month-old daughter! 
-                <br><br> <i> -Stacey</i></p>
-              </div>
-              <div class="mySlides subtle-box-shadow slide-in-fwd-center "> 
-                <p>At almost 16 months old, it amazes me what my son is able to do based on things they have taught him already at his “school”. It is wonderful. 
-                <br><br> <i>Michelle</i></p>
-              </div>
-              <div class="mySlides subtle-box-shadow slide-in-fwd-center "> 
-                <p>I wanted to express how happy I am to have Kaleo at your school. He’s grown tremendously and it’s been a joy watching him learn from all the kids in the classroom. 
-                <br><br><i>Leslie</i></p>
-              </div>
-              <div class="mySlides subtle-box-shadow slide-in-fwd-center "> 
-                <p>I cannot say enough about the staff. They genuinely care about each and every child and treat the parents and children with the utmost respect. 
-                <br><br><i>Carol</i></p>
-              </div>
-              <div class="mySlides subtle-box-shadow slide-in-fwd-center "> 
-                <p>I’ve been really happy with the school, the staff, Patience and the methods they use with the children. It's been fantastic! 
-                <br><br><i>Michael</i></p>
-              </div>
-              <div class="mySlides subtle-box-shadow slide-in-fwd-center "> 
-                <p>I must agree that Patience Montessori is wonderful. My 3.5 year old started a few weeks ago and we are extremely happy.
-                <br><br><i>Danit</i></p>
-              </div>
-          </div>
-          <div class="right-quote"><svg xmlns="http://www.w3.org/2000/svg" width="44.4" height="38.526" viewBox="0 0 44.4 38.526"> <g id="_" data-name=" " transform="translate(-70.8 -236.705)"> <g id="Group_5" data-name="Group 5"> <path id="Path_20" data-name="Path 20" d="M70.948,243.061c0-.6.15-1.2.15-1.65a4.6,4.6,0,0,1,.15-1.5,2.843,2.843,0,0,1,.45-1.35,3.614,3.614,0,0,1,1.2-.9c.45-.15.9-.6,1.5-.6.45-.15,1.05.15,1.5,0,.451,0,1.051-.3,1.651-.3h1.5a5.028,5.028,0,0,1,1.5,0c.6,0,1.05.15,1.65.15l1.5-.15a6.187,6.187,0,0,1,1.65.15c.6,0,1.051.15,1.5.15.6.15,1.2.15,1.5.45.451.15.75.75.9,1.2a4.5,4.5,0,0,1,.6,1.5v1.5c0,.6.15,1.05.15,1.65s-.15,1.05-.15,1.5c0,.6.15,1.05.15,1.5v3.15c0,.45-.15,1.05-.15,1.65v3.151c0,.6.15,1.05.15,1.65v1.65c0,.45-.15,1.05-.15,1.65,0,.451.15.9.15,1.5v3.3a5.78,5.78,0,0,1-.449,1.5,2.533,2.533,0,0,1-.451,1.5,5.78,5.78,0,0,1-.449,1.5,7.149,7.149,0,0,1-.9,1.35,7.547,7.547,0,0,1-1.05,1.2l-1.049,1.051a6.128,6.128,0,0,1-1.35.75,6.315,6.315,0,0,1-1.5.6,5.707,5.707,0,0,1-1.5.45c-.451.15-1.05.3-1.5.45l-1.5.449a5.627,5.627,0,0,0-1.651.15c-.6,0-1.05.15-1.65.15H73.5a2.221,2.221,0,0,1-1.35-.3,2.15,2.15,0,0,1-.9-1.049c-.15-.3,0-.75-.15-1.35,0-.45-.15-.9-.15-1.5a6.106,6.106,0,0,1,.15-1.65,4.482,4.482,0,0,1,.6-1.5,2.342,2.342,0,0,1,1.2-1.2,2.977,2.977,0,0,1,1.65-.3,2.235,2.235,0,0,0,1.35-.6,2.438,2.438,0,0,0,1.35-.75,6.978,6.978,0,0,0,.449-1.351,6.389,6.389,0,0,0,.45-1.5c0-.45.151-1.05,0-1.35a4.433,4.433,0,0,0-.3-1.5c-.3-.6-.749-1.049-1.049-1.049-.6,0-1.05.15-1.5.15H73.65a6.925,6.925,0,0,1-1.35-.45,1.556,1.556,0,0,1-1.2-.9c-.15-.449-.15-.9-.3-1.5v-1.65c0-.6.15-1.049.15-1.5,0-.6-.15-1.05-.15-1.65v-3c0-.6.15-1.05.15-1.65v-1.5Zm24.9,1.5c0-.451.3-1.051.3-1.5,0-.6-.15-1.2-.15-1.65a4.457,4.457,0,0,1,.3-1.5c.15-.6,0-1.05.3-1.5s.9-.6,1.35-.9l1.5-.45c.452-.15.9,0,1.5-.15a6,6,0,0,0,1.65,0c.452,0,.9-.15,1.5-.15l1.5.15c.6,0,1.051-.15,1.651-.15h3.15a4.659,4.659,0,0,1,1.5.15,9.375,9.375,0,0,1,1.5.45,3.074,3.074,0,0,1,1.2,1.2c.151.45.151,1.05.3,1.65,0,.449.15.9.15,1.5v1.65c0,.6-.15,1.05-.15,1.5v1.5c0,.6.15,1.05.15,1.65v9.6c0,.45-.15,1.05-.15,1.65,0,.451.3.9.3,1.5v1.65a6.564,6.564,0,0,0-.3,1.5l-.3,1.65c-.15.449-.15,1.049-.3,1.5a15.027,15.027,0,0,1-.6,1.5,8.223,8.223,0,0,1-.9,1.2c-.45.449-.6,1.049-.9,1.349l-1.35.9-1.35.75a5.281,5.281,0,0,1-1.349.6c-.6.15-.9.6-1.5.75-.449.15-1.048.15-1.5.3s-1.051.15-1.651.3a5.3,5.3,0,0,1-1.5.3,6.135,6.135,0,0,1-1.649.15H98.557c-.451,0-1.051.15-1.351,0-.45-.3-.45-.75-.75-1.35a5.91,5.91,0,0,1-.6-1.35c0-.45.3-.9.3-1.5a6.078,6.078,0,0,1,0-1.65,5.294,5.294,0,0,1,.449-1.65,3.533,3.533,0,0,1,1.35-1.2,5.422,5.422,0,0,1,1.65-.3c.6,0,1.051.149,1.5-.151a3.614,3.614,0,0,0,.9-1.2c.3-.45.75-.749.9-1.2a6.434,6.434,0,0,0,.449-1.5,4.443,4.443,0,0,0-.3-1.35,4.656,4.656,0,0,0-.15-1.5,1.434,1.434,0,0,0-1.051-.9h-1.5c-.6,0-1.2-.15-1.65-.15H97.2a1.741,1.741,0,0,1-.9-1.2c-.15-.449-.15-.9-.3-1.5v-1.65c0-.6-.151-1.049-.151-1.5,0-.6.15-1.05.15-1.65v-1.5l-.151-1.5c0-.6.15-1.05.15-1.65,0-.451-.15-.9-.15-1.5Z" fill="#135e97"/> </g> </g></svg></div>
-    </div>
-        <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98"><button class="dark-blue-btn" style="margin-left: 15px;">LEAVE A REVIEW</button></a>
-  </div>
+  
 
       <footer class="site-footer">
        <div class="footer-container">
@@ -85,6 +51,7 @@
               <li><a><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/fax-icon.png" alt="fax-icon" class="icon"> &nbsp; (303) 443-3281 </a></li>
               <li><a href="mailto: patiencemontessori@gmail.com"><img src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/email-icon.png" class="icon" alt="email icon">&nbsp; patience@patiencemontessori.com</a></li>
               <li><a href="https://g.page/patiencemontessoridaycare?share" target="_blank">3600 Hazelwood Court, <br> Boulder, Colorado, 80304</a></li>
+              <li><a><strong>Hours of Operation: </strong>Monday – Friday, 7:30 AM – 6 PM</a>
           </ul>
 
           <div class="social-icons">
@@ -108,14 +75,16 @@
 
       
        <section id="footer-nav" class="subtle-box-shadow" style="width: 100%;">
-            <a>About Us</a>
-            <a>Programs</a>
-            <a>Forms</a>
-            <a>Admissions</a>
-            <a>Contact Us</a>
+            <a href="/about">About Us</a>
+            <a href="/programs">Programs</a>
+            <a href="/forms">Forms</a>
+            <a href="/admissions">Admissions</a>
+            <a href="/contact">Contact Us</a>
         </section>
         
-        <p style="color: white; text-align: center;">Copyright &copy; Patience Montessori School 2021 <br>
+        <p style="color: white; font-size: 12px; text-align: center;">Patience Montessori School is licensed by the State of Colorado Division of Childcare. The school meets or exceeds strict fire, health and child care regulations that are monitored by the appropriate regulatory agencies on a frequent basis. <br> <br>
+        Patience Montessori School, Inc. is a for profit institution and does not discriminate on the basis of race, creed, color, national origin, religion, ancestry, sex, sexual orientation, age, disability, or marital status in any aspects of its operations, policies and procedures including, but not limited to, enrollment, hiring, termination, educational policies, athletic programs and any other school administered programs.</p>
+        <p style="color: white; text-align: center; font-weight: 400;">Copyright &copy; Patience Montessori School 2021 <br>
         <a id="de-credit" href="https://designelixir.studio">Made with &hearts; by Design Elixir</a></p>
        </div>
       </footer>
