@@ -1,6 +1,6 @@
 * {box-sizing: border-box; }
 header {top: 0; left: 0; height: 30vh; }
-body {width: 100vw; margin: 0; font-family: "Cabin", serif; overflow-x: hidden;} 
+body {width: 100vw; margin: 0; font-family: "Cabin", serif; overflow-x: hidden; background-image: url("https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/textured-bg-optimized.png"); background-size: cover;} 
 
 h1 {font-family: "Cabin", serif; font-weight: 600; font-size: 28px;}
 p {font-family: "Source Sans Pro", sans-serif; }
@@ -25,27 +25,36 @@ h6 {font-family: "Source Sans Pro", sans-serif; font-size: 18px; }
 
 nav {width: 50vw; background: #135e97; color: white;  height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly;}
 
+//review-section
+.review-section { padding: 5% 0%; width: 100vw; text-align: center; justify-content: center;}
+.review-slideshow-wrapper {display: flex; align-items: top; justify-content: center; padding: 0 5%;}
+.slideshow {padding: 0% 5%; height: 300px; display: flex; align-items: center; justify-content: center;}
+.mySlides {background: #3990CE; padding: 5%; max-width: 700px; margin: 5%; border-radius: 25px; color: white;}
+
+
 //footer
-footer {bottom: 0; margin-bottom: -15px;  background-color: #FFF336; }
+footer {bottom: 0; margin-bottom: -15px;}
 .footer-container {width: 100%;  background-image: url("https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/footer-bg.png"); background-size: cover; padding-bottom: 30px; }
-#footer-nav {background-color: #407538; width: 100%; color: white; height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly; }
-.footer-cols {width: 50%; float: left; padding-bottom: 5%;  align-items: center;}
+#footer-nav {background-color: #407538; width: 100%; color: white; height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly; margin-bottom: 2%;}
+.footer-cols {width: 50%; float: left; padding-bottom: 2%;  align-items: center;}
 .footer-logo-wrapper{display: flex; align-items: center; justify-content: center; padding: 5% 15%;}
 
-.facebook-widget-wrapper {display: flex; align-items: center; justify-content: center; width: 100%; padding: 2.5% 0%; }
+.facebook-widget-wrapper {display: flex; align-items: center; justify-content: center; width: 100%; padding: 7.5% 0 2.5% 0%; }
 .footer-buttons {width: 100%; display: inline-flex; justify-content: center;}
-.social-icons {padding: 0 0 0% 30%;}
+.social-icons {padding: 0 0 0% 33%;}
 .social-icons img:hover {transform: scale(1.1)}
 
-#footer-contact-linktree {color: white; padding-left: 30%; list-style-type: none;}
+#footer-contact-linktree {color: white; padding-left: 33%; list-style-type: none;}
 #footer-contact-linktree li {padding: 5px 0px;}
 #footer-contact-linktree li:hover {transform: scale(1.05); text-decoration: underline}
 #footer-contact-linktree a {text-decoration: none; color: white;}
 #footer-details { width: 100%;}
 
-#de-credit {text-align: center; color: white; font-size: 12px; padding-top: 15px;}
+.footer-logo {width: 70%; display: flex; align-items: center; justify-content: center;}
+
+#de-credit {text-align: center; color: white; font-size: 12px; padding-top: 15px; text-decoration: none;}
 #de-credit a {text-decoration: none; color: white;}
-#de-credit a:hover {transform: scale(1.1)}
+#de-credit:hover {transform: scale(1.1)}
 
 
 .program-buttons-section {width: 100%; height: 500px;  }
@@ -56,8 +65,10 @@ footer {bottom: 0; margin-bottom: -15px;  background-color: #FFF336; }
 .subtle-box-shadow { -webkit-box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62); box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62);}
 .orange-btn{background-color: #e96b25;}
 .dark-blue-btn {background-color: #135E97; border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Cabin", serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
+.dark-blue-btn:hover {transform: scale(1.1); background-color:#3990CE; }
 .light-blue-btn {background-color: #3990CE;}
 .light-blue-btn:hover {background-color:#59A2D6; transform: scale(1.1)}
+.orange-header {color: #e96b25;}
 
 .orange-btn:hover {background-color:#FF9729; transform: scale(1.1)}
 button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Cabin", serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
@@ -67,11 +78,12 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
 .image-box {height: 400px; width: auto;}
 .image-box img {height: 100%; width: auto;}
 
-.fade-in {
-	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
+.fade-in {-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;}
 @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+.slide-in-fwd-center{-webkit-animation:slide-in-fwd-center 2s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-fwd-center 2s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
 
 @media only screen and (max-width: 900px) {
   
