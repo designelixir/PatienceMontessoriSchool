@@ -21,8 +21,8 @@
                 </span>
                 <div class="address-bar-sec" id="address-bar-sec-right">
                     <span id="address-bar-sec-phone">
-                        <img src="{src/phone.svg}" style="padding-right: 5px; height: 20px;">
-                        <a class="address-bar-sec-phone" href="tel:3034495214">(303)-449-5214 &nbsp;</a>
+                        <a class="address-bar-sec-phone" href="tel:3034495214"><img src='{/src/phone-icon.png}' style="padding-right: 5px; height: 20px;">
+                        (303)-449-5214 &nbsp;</a>
                     </span>
                     <a target="blank" href="https://goo.gl/maps/ibFWwhJha2T4q1v98"><button class="orange-btn" style="margin-left: 15px;">SCHEDULE A TOUR</button></a>
                 </div>
@@ -34,7 +34,7 @@
           <div id="header-container">        
             <div id="navigation">
                 <span id="logo-sec">
-                    <a href="/"><img class="logo" src="{website.logoImageUrl}" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline"></a>
+                    <a href="/"><img class="logo" src="{website.logoImageUrl}" style="width: 100%; max-width: 450px; padding: 5% 10% 0 10%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline"></a>
                 </span>
                 <nav id="main-nav" class="subtle-box-shadow">
                     <a>About Us</a>|
