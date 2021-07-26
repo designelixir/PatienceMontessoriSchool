@@ -30,12 +30,7 @@
     </div>
     </div>
     
-    <div class="header-hero-content">
-        <h1 class="white-text subtle-text-shadow" id="header-box-title"></h1>
-          <h6 class="white-text subtle-text-shadow" id="header-box-content">
-          </h6>
-
-    </div>
+  
 
 </header>
 
