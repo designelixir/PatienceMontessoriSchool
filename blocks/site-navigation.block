@@ -30,7 +30,13 @@
     </div>
     </div>
     
-  
+    <div class="header-hero-content">
+        <h1 class="white-text subtle-text-shadow" id="header-box-title">Heartful, Intelligent, &amp; Nurturing Education/Childcare</h1>
+          <h6 class="white-text subtle-text-shadow" id="header-box-content">
+              Welcome to Patience Montessori in Boulder, CO. Our mission is to prepare your child for success in the world. To help build that foundation for success, we provide a multicultural, nurturing, fun and learning-oriented environment where your child can grow, thrive, and interact with other children and adults. We look forward to showing you what makes Patience Montessori so special! 
+          </h6>
+
+    </div>
 
 </header>
 
