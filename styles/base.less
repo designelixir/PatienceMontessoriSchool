@@ -15,7 +15,7 @@ h1 {font-family: "Sarabun", sans-serif; font-weight: 600; font-size: 32px; color
 h2 {font-family: "Sarabun", sans-serif; font-weight: 600; font-size: 28px; color: #e96b25; padding: 0px 5%;}
 h3 {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 24px; padding: 0px 5%;}
 p {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; padding: 0px 5%; color: #4B4B4B;}
-a {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; text-decoration: none; color: white;}
+a {font-family: "Sarabun", sans-serif; font-weight: 400; font-size: 18px; text-decoration: none; color: black;  }
 a:hover {transform: scale(1.1); font-weight: 400;}
 img {border: 3px solid #69BBAA;}
 h6 {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; color: black;}
@@ -31,6 +31,7 @@ h6 {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; color
 #address-bar span:hover {transform: scale(1.05)}
 
 #navigation {width: 100vw; display: inline-flex; align-items: center; justify-items: center; justify-content: space-between; padding: 0;}
+#navigation a {color: white; font-weight: 300;}
 #logo-sec {width: 50%; display: flex; justify-content: left; align-items: center; }
 #main-nav {display: inline-flex; align-items: center; justify-items: space-between; padding: 0% 2.5%;}
 #main-nav a {font-size: 16px;}
@@ -45,7 +46,13 @@ h6 {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; color
   width: auto;
   height: auto;  }
 
+  .image-card-wrapper {display: flex!important; align-items: center;}
 
+  figure {align-items: center;}
+  .image-card {width: 120%!important; background-color: #e96b25!important; color: black!important; font-family: "Sarabun", sans-serif!important;}
+ 
+  .image-title p {color: white!important; font-family: "Sarabun", sans-serif!important; font-size: 24px!important; font-weight: 400;}
+  .image-subtitle p {color: white!important; font-family: "Sarabun", sans-serif!important; font-size: 16px!important; font-weight: 300; }
 //wave boxes
 .wave-box {height: 600px; width: 100%; display: flex; align-items: center; justify-content: center;}
 .wave-box-image-container {max-width: 100%; display: flex; align-items: center; justify-content: space-evenly;}
@@ -56,6 +63,8 @@ h6 {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; color
   max-height:600px;
   width: auto;
   height: auto;}
+
+  .form-block {margin: 0% 5%;}
 
 
 
@@ -105,12 +114,17 @@ footer {bottom: 0; margin-bottom: -15px;}
 .program-btn {width: 24vw; height: 100%; display: flex; justify-content: center; align-items: center; text-align: center; color: white; border: 2px solid white;}
 
 .subtle-box-shadow { -webkit-box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62); box-shadow: 5px 7px 15px -5px rgba(0,0,0,0.62);}
-.orange-btn{background-color: #e96b25;}
-.dark-blue-btn {background-color: #135E97; border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Sarabun", sans-serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
+.orange-btn{background-color: #e96b25; color: white!important;}
+.dark-blue-btn {background-color: #135E97; color: white!important; border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Sarabun", sans-serif; font-weight: 600; cursor: pointer; color: white; font-size: 16px;}
 .dark-blue-btn:hover {transform: scale(1.05); background-color:#3990CE; }
-.light-blue-btn {background-color: #3990CE;}
+.light-blue-btn {background-color: #3990CE; color: white!important;}
 .light-blue-btn:hover {background-color:#59A2D6; transform: scale(1.1)}
 .orange-header {color: #e96b25;}
+
+.sqs-system-button {font-family: "Sarabun", sans-serif!important; font-weight: 400!important; font-size: 18px!important; background-color: #3990CE!important; border: 2px solid white;}
+.sqs-block-button-element--medium {font-family: "Sarabun", sans-serif!important; font-weight: 400!important; font-size: 18px!important; background-color: #3990CE!important; margin: 0% 5%; border: 2px solid white;}
+.sqs-block-button-element--large {font-family: "Sarabun", sans-serif!important; font-weight: 400!important; font-size: 18px!important; background-color: #e96b25!important; margin: 0% 5%; border: 2px solid white;}
+
 
 .orange-btn:hover {background-color:#FF9729; transform: scale(1.1)}
 button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-family: "Sarabun", sans-serif; font-weight: 400; cursor: pointer; color: white; font-size: 16px;}
@@ -118,18 +132,36 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
 
 
 //FORMS 
-// #productList .product .product-image .intrinsic > div { border: 2px solid red; display: inline-block!important; text-align: center!important;}
 #productList .product .product-image  {height: 150px!important; width: 150px!important;  display: inline-block!important; justify-content: space-evenly!important;}
 .sqs-add-to-cart-button {background: #135e97!important; font-family: "Sarabun", sans-serif!important;}
-// .productSummary {width: 100%!important; height: 500px!important;}
-// // .product {height: 500px!important; width: 200px!important; margin-bottom: 10%!important; text-align: center;}
-// .product-image {border: none!important; padding: 5%; height: 150px;}
 .intrinsic img{ border: none!important; display: flex!important; align-items: center!important;}
-// #productGallery {width: 0px!important;}
-// #productDetails {width: 100%!important; padding: 5%!important; text-align: center!important;}
-// #productList .product .product-image .intrinsic {height: 500px!important; width: 100%!important; border: 3px solid lime; display: inline-block!important; justify-content: space-evenly!important;}
-// #productList .product .product-image .intrinsic {height: 500px!important; width: 100%!important; border: 3px solid lime; display: inline-block!important; justify-content: space-evenly!important;}
 
+.summary-item-list { display: flex!important; align-items: center!important; justify-content: center!important;}
+.summary-item { display: flex; background: rgba(196, 187, 175, 0.5); width: 40%!important; height: 300px; padding-top: 25px; text-align: center; margin: 5% 10%; }
+.summary-title-link {background: #135E97; padding: 10px 25px; }
+.summary-excerpt {padding: 15px 0px;}
+.summary-thumbnail-image {border: none!important; max-height: 200px!important; max-width: 200px!important;}
+
+//tuition table
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  
+  padding: 8px;
+  
+}
+  tr {font-weight: 300; padding: 5px 10px;}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#productWrapper {width: 90%!important; margin: 0% 5%;}
 .product {background: rgba(196, 187, 175, 0.5); display: inline-block!important; text-align: center!important; padding: 25px!important;}
 #productList {width: 90%!important; margin:10% 5%!important; display: flex; align-items: center; justify-content: center;}
 .product-meta {color: black; font-weight: 300; margin: 15%!important;}
@@ -166,6 +198,7 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
   justify-content: center;
   align-items: center; padding: 5% 10%; }
 .wave-box-span-2{display: none;}
+
 }
 
 
