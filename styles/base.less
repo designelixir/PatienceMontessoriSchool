@@ -40,6 +40,13 @@ h6 {font-family: "Sarabun", sans-serif; font-weight: 300; font-size: 18px; color
 
 nav {width: 50vw; background: #135e97; color: white;  height: 50px; text-align: center; display: inline-flex; align-items: center; justify-items: center; justify-content: space-evenly;}
 
+//about page values icon 
+.icon-row {width: 100%; display: inline-flex; justify-content: center; align-items: center; flex-wrap: wrap; }
+.icon-col {max-width: 200px; display: inline-block; align-items: top; padding: 25px; text-align: center; }
+.icon-box-icon {width: 100px; height: auto; }
+
+
+
 .review-section { padding: 5% 0%; width: 100vw; text-align: center; justify-content: center;}
 .review-slideshow-wrapper {display: flex; align-items: top; justify-content: center; padding: 5%; }
 .slideshow {padding: 0% 5%; height: 300px; display: flex; align-items: center; justify-content: center;}
@@ -92,6 +99,9 @@ button { border: 1px solid white; padding: 10px 15px; margin: 4px 0px; font-fami
 
 .slide-in-fwd-center{-webkit-animation:slide-in-fwd-center 2s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-fwd-center 2s cubic-bezier(.25,.46,.45,.94) both}
 @-webkit-keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+.flip-in-diag-1-bl{-webkit-animation:flip-in-diag-1-bl .5s cubic-bezier(.25,.46,.45,.94) both;animation:flip-in-diag-1-bl .5s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes flip-in-diag-1-bl{0%{-webkit-transform:rotate3d(1,1,0,80deg);transform:rotate3d(1,1,0,80deg);opacity:0}100%{-webkit-transform:rotate3d(1,1,0,0deg);transform:rotate3d(1,1,0,0deg);opacity:1}}@keyframes flip-in-diag-1-bl{0%{-webkit-transform:rotate3d(1,1,0,80deg);transform:rotate3d(1,1,0,80deg);opacity:0}100%{-webkit-transform:rotate3d(1,1,0,0deg);transform:rotate3d(1,1,0,0deg);opacity:1}}
 
 
 @media only screen and (max-width: 900px) {
