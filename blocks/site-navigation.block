@@ -20,6 +20,7 @@
                 <a href="/"><img class="logo" src="http://images.squarespace-cdn.com/content/v1/60d55b927bebab46b4a4455a/4a70db8e-b7fa-4ee0-b5c5-9062a6cabf19/patience-montessori-logo.png" style="width: 100%; max-width: 450px; padding: 5% 10% 5% 10%;" alt="Patience Montessori Logo with Nurturing Future Leaders Tagline"></a>
             </span>
             <nav id="main-nav" class="subtle-box-shadow">
+                <a href="/"><img style=" height: 20px; border: none!important; margin-top: 4px;" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/house-24.png" alt="home"/></a>|
                 <a href="/about">About Us</a>|
                 <a href="/programs">Programs</a>|
                 <a href="/admissions">Admissions</a>|
