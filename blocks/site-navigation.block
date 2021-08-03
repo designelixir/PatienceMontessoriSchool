@@ -1,3 +1,23 @@
+<style>
+.logo {width: 80%; border: none!important;}
+.icon {border: none!important; height: 15px;}
+.white-text {color: white!important;}
+.link-button {background: orange; padding: 15px; margin: 4px; font-weight: 600;}
+.link-button:hover {background: yellow;}
+#address-bar {width: 100%; background: #135e97; color: white; display: flex; justify-content: space-between; align-items: center; padding: 0 25px; }
+.address-bar-sec { text-align: center; display: inline-flex; justify-items: center; align-items: center; }
+#address-bar-sec-phone {align-items: center; display: inline-flex;  text-align: left;}
+#address-bar a {text-decoration: none; color: white; font-size: 16px; }
+#address-bar span:hover {transform: scale(1.05)}
+
+#navigation {width: 100vw; display: inline-flex; align-items: center; justify-items: center; justify-content: space-between; padding: 0;}
+#navigation a {color: white; font-weight: 300;}
+#logo-sec {width: 50%; display: flex; justify-content: left; align-items: center; }
+#main-nav {display: inline-flex; align-items: center; justify-items: space-between; padding: 0% 2.5%;}
+#main-nav a {font-size: 16px;}
+#main-nav a:hover {cursor: pointer; font-weight: 600; transform: scale(1.1) }
+
+</style>
 <header id="header-id">
 
     <div class="constant-header-nav">
