@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700&display=swap" rel="stylesheet">
 
     <!-- include system scripts, page meta, and header code injection -->
-    {squarespace-headers}
+    
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} fade-in">
       
@@ -21,6 +21,7 @@
       <header class="site-header">
           <squarespace:navigation navigationId="siteNav" template="site-navigation" />
       </header>
+      {squarespace-headers}
        
 
       <!-- cms content injection point -->
