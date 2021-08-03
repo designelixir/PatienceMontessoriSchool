@@ -76,10 +76,14 @@
 
       
        <section id="footer-nav" class="subtle-box-shadow" style="width: 100%;">
+            <a href="/"><img style=" height: 20px; border: none!important; margin-top: 4px;" src="https://raw.githubusercontent.com/coloradical/PatienceMontessoriSchool/master/assets/house-24.png" alt="home"/></a>
             <a href="/about">About Us</a>
             <a href="/programs">Programs</a>
             <a href="/forms">Forms</a>
             <a href="/admissions">Admissions</a>
+            <a href="/schedule">Schedule</a>
+            <a href="/faq">FAQ</a>
+            <a href="/https://g.page/patiencemontessoridaycare?share">Directions</a>
             <a href="/contact">Contact Us</a>
         </section>
         
